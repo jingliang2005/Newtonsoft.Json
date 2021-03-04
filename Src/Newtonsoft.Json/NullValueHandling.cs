@@ -35,11 +35,13 @@ namespace Newtonsoft.Json
     public enum NullValueHandling
     {
         /// <summary>
+        /// 序列化和反序列化对象时，请包含空值。
         /// Include null values when serializing and deserializing objects.
         /// </summary>
         Include = 0,
 
         /// <summary>
+        /// 序列化和反序列化对象时，请忽略空值。
         /// Ignore null values when serializing and deserializing objects.
         /// </summary>
         Ignore = 1

@@ -30,21 +30,25 @@ using System.Text;
 namespace Newtonsoft.Json
 {
     /// <summary>
+    /// 为<see cref =“ JsonSerializer” />指定参考循环处理选项。
     /// Specifies reference loop handling options for the <see cref="JsonSerializer"/>.
     /// </summary>
     public enum ReferenceLoopHandling
     {
         /// <summary>
+        /// 遇到循环时引发<see cref =“ JsonSerializationException” />。
         /// Throw a <see cref="JsonSerializationException"/> when a loop is encountered.
         /// </summary>
         Error = 0,
 
         /// <summary>
+        /// 忽略循环引用，不进行序列化。
         /// Ignore loop references and do not serialize.
         /// </summary>
         Ignore = 1,
 
         /// <summary>
+        /// 序列化循环引用。
         /// Serialize loop references.
         /// </summary>
         Serialize = 2

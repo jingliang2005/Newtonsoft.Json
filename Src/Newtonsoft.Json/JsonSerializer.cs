@@ -285,6 +285,7 @@ namespace Newtonsoft.Json
         }
 
         /// <summary>
+        /// 获取或设置在序列化和反序列化期间如何处理空值。
         /// Gets or sets how null values are handled during serialization and deserialization.
         /// The default value is <see cref="Json.NullValueHandling.Include" />.
         /// </summary>
@@ -1065,6 +1066,8 @@ namespace Newtonsoft.Json
         }
 
         /// <summary>
+        /// 序列化指定的<see cref =“ Object” />
+        /// 并使用指定的<see cref =“ JsonWriter” />写入JSON结构。
         /// Serializes the specified <see cref="Object"/> and writes the JSON structure
         /// using the specified <see cref="JsonWriter"/>.
         /// </summary>
